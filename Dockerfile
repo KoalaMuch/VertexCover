@@ -5,6 +5,7 @@ FROM ubuntu:22.04
 RUN apt-get update && apt-get install -y \
     build-essential \
     cmake \
+    lsb-release \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy code
@@ -13,8 +14,8 @@ COPY . /app
 # Compile C++ code 
 WORKDIR /app
 
-# Compile your C++ program
-RUN g++ -o test test.cpp -std=c++11 -I final/or-tools/include
+RUN cd /app/or-tools \
+    make build SOURCE=../test.cpp
 
 # Set the entry point for the Docker container
-ENTRYPOINT ["./test"]
+ENTRYPOINT ["/app/bin/test"]
