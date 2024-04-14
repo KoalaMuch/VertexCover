@@ -14,7 +14,7 @@ COPY . /app
 WORKDIR /app
 
 # Compile your C++ program
-RUN g++ -o test test.cpp -std=c++11 -I or-tools/include
+RUN g++ -o test test.cpp -std=c++11 -I final/or-tools/include
 
 # Set the entry point for the Docker container
 ENTRYPOINT ["./test"]
