@@ -1,0 +1,18 @@
+Start testing: Apr 14 17:13 +07
+----------------------------------------------------------
+1/1 Testing: test_int_prog
+1/1 Test: test_int_prog
+Command: "/Users/theerut/Desktop/CU/Year4/HighPerf/final/or-tools-mac/examples/int_prog/build/bin/int_prog"
+Directory: /Users/theerut/Desktop/CU/Year4/HighPerf/final/or-tools-mac/examples/int_prog/build
+"test_int_prog" start time: Apr 14 17:13 +07
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.43 sec
+----------------------------------------------------------
+Test Failed.
+"test_int_prog" end time: Apr 14 17:13 +07
+"test_int_prog" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 14 17:13 +07

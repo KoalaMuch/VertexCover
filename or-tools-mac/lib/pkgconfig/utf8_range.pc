@@ -1,0 +1,11 @@
+prefix=/Users/corentinl/work/main/or-tools_arm64_macOS-14.3.1_cpp_v9.9.3963
+exec_prefix=/Users/corentinl/work/main/or-tools_arm64_macOS-14.3.1_cpp_v9.9.3963
+libdir=/Users/corentinl/work/main/or-tools_arm64_macOS-14.3.1_cpp_v9.9.3963/lib
+includedir=/Users/corentinl/work/main/or-tools_arm64_macOS-14.3.1_cpp_v9.9.3963/include
+
+Name: UTF8 Range
+Description: Google's UTF8 Library
+Version: 1.0
+Requires: absl_strings
+Libs: -L${libdir} -lutf8_validity -lutf8_range 
+Cflags: -I${includedir}

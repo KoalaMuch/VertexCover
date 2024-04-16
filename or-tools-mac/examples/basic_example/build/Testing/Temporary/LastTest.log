@@ -1,0 +1,26 @@
+Start testing: Apr 14 16:53 +07
+----------------------------------------------------------
+1/1 Testing: test_basic_example
+1/1 Test: test_basic_example
+Command: "/Users/theerut/Desktop/CU/Year4/HighPerf/final/or-tools-mac/examples/basic_example/build/bin/basic_example"
+Directory: /Users/theerut/Desktop/CU/Year4/HighPerf/final/or-tools-mac/examples/basic_example/build
+"test_basic_example" start time: Apr 14 16:53 +07
+Output:
+----------------------------------------------------------
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1713088435.789683   76890 basic_example.cc:35] Number of variables = 2
+I0000 00:00:1713088435.789769   76890 basic_example.cc:44] Number of constraints = 1
+I0000 00:00:1713088435.790340   76890 basic_example.cc:60] Solution:
+
+I0000 00:00:1713088435.790346   76890 basic_example.cc:61] Objective value = 4
+I0000 00:00:1713088435.790353   76890 basic_example.cc:62] x = 1
+I0000 00:00:1713088435.790355   76890 basic_example.cc:63] y = 1
+<end of output>
+Test time =   0.77 sec
+----------------------------------------------------------
+Test Passed.
+"test_basic_example" end time: Apr 14 16:53 +07
+"test_basic_example" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 14 16:53 +07

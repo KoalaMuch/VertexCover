@@ -12,10 +12,18 @@ RUN apt-get update && apt-get install -y \
 COPY . /app
 
 # Compile C++ code 
+# WORKDIR /app
 WORKDIR /app
 
-RUN cd /app/or-tools \
-    make build SOURCE=../test.cpp
+RUN cd /app/or-tools-mac \
+    make build SOURCE=../int_prog.cpp
+
+# Set the entrypoint script as executable
+RUN chmod +x start.sh
+
+# Set the entrypoint command
+ENTRYPOINT ["sh", "start.sh"]
 
 # Set the entry point for the Docker container
-ENTRYPOINT ["/app/bin/test"]
+# ENTRYPOINT ["or-tools-mac/examples/int_prog/build/bin/int_prog"]
+

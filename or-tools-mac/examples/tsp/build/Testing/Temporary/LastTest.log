@@ -1,0 +1,18 @@
+Start testing: Apr 14 16:54 +07
+----------------------------------------------------------
+1/1 Testing: test_tsp
+1/1 Test: test_tsp
+Command: "/Users/theerut/Desktop/CU/Year4/HighPerf/final/or-tools-mac/examples/tsp/build/bin/tsp"
+Directory: /Users/theerut/Desktop/CU/Year4/HighPerf/final/or-tools-mac/examples/tsp/build
+"test_tsp" start time: Apr 14 16:54 +07
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.41 sec
+----------------------------------------------------------
+Test Passed.
+"test_tsp" end time: Apr 14 16:54 +07
+"test_tsp" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 14 16:54 +07

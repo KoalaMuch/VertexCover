@@ -14,7 +14,7 @@ bool sortByFreq(const int &lhs, const int &rhs)
 int main()
 {
     auto start = high_resolution_clock::now();
-    const char *fileName = "rand-30-120.txt";
+    const char *fileName = "../rand-30-120.txt";
     FILE *filePointer;
     filePointer = fopen(fileName, "r");
     int n, m;

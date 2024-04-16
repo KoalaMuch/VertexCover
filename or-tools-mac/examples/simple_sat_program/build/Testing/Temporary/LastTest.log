@@ -1,0 +1,22 @@
+Start testing: Apr 14 16:54 +07
+----------------------------------------------------------
+1/1 Testing: test_simple_sat_program
+1/1 Test: test_simple_sat_program
+Command: "/Users/theerut/Desktop/CU/Year4/HighPerf/final/or-tools-mac/examples/simple_sat_program/build/bin/simple_sat_program"
+Directory: /Users/theerut/Desktop/CU/Year4/HighPerf/final/or-tools-mac/examples/simple_sat_program/build
+"test_simple_sat_program" start time: Apr 14 16:54 +07
+Output:
+----------------------------------------------------------
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1713088449.737093   79137 simple_sat_program.cc:53] x = 1
+I0000 00:00:1713088449.737121   79137 simple_sat_program.cc:54] y = 0
+I0000 00:00:1713088449.737122   79137 simple_sat_program.cc:55] z = 0
+<end of output>
+Test time =   0.39 sec
+----------------------------------------------------------
+Test Passed.
+"test_simple_sat_program" end time: Apr 14 16:54 +07
+"test_simple_sat_program" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Apr 14 16:54 +07

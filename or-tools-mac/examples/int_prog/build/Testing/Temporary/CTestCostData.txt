@@ -1,0 +1,4 @@
+test_cp_is_fun_cp 0 0
+test_int_prog 0 0
+---
+test_int_prog
